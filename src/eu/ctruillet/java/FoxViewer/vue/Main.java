@@ -40,7 +40,7 @@ public class Main extends PApplet{
 		//Initialisation
 		processing = this;
 
-		surface.setIcon(loadImage("logo.png"));
+		surface.setIcon(loadImage("doc/logo.png"));
 		surface.setTitle("FoxViewer");
 
 		minim = new Minim(this);
@@ -124,15 +124,15 @@ public class Main extends PApplet{
 
 	public void keyPressed(){
 		if(key==CODED){
-			if(keyCode==RIGHT){
+			if(keyCode== KeyEvent.VK_RIGHT){
 				controlDrop.next();
-			}
-			else if(keyCode== KeyEvent.VK_LEFT){
+			}else if(keyCode== KeyEvent.VK_LEFT){
 				controlDrop.previous();
-
 			}
 		}else if(key==' '){
 			controlDrop.pauseResume();
+		}else if(key==ENTER){
+			controlDrop.rewind();
 		}
 
 	}

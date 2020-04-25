@@ -99,9 +99,10 @@ public class ControlDrop {
 
 	public void next(){
 		if(curseur+1<this.queue.size()){
-			this.getCurrentFile().stop();
+			this.getCurrentFile().pause();
 			curseur++;
-			this.getPreviousFile().rewind();
+			this.getCurrentFile().resume();
+			//this.getPreviousFile().rewind();
 			System.out.println("NEXT");
 		}
 
@@ -109,11 +110,17 @@ public class ControlDrop {
 
 	public void previous(){
 		if(curseur-1 >= 0) {
-			this.getCurrentFile().stop();
+			this.getCurrentFile().pause();
 			curseur--;
-			this.getNextFile().rewind();
+			this.getCurrentFile().resume();
+			//this.getNextFile().rewind();
 			System.out.println("PREVIOUS");
 		}
+	}
+
+	public void rewind(){
+		this.getCurrentFile().rewind();
+		System.out.println("REWIND");
 	}
 
 	public void pauseResume(){

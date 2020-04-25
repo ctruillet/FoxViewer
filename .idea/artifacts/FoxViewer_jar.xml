@@ -15,7 +15,9 @@
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/jsyn-20171016.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/tritonus_share.jar" path-in-jar="/" />
       <element id="module-source" name="FoxViewer" />
-      <element id="dir-copy" path="$PROJECT_DIR$/doc" />
+      <element id="directory" name="doc">
+        <element id="file-copy" path="$PROJECT_DIR$/doc/logo.png" />
+      </element>
     </root>
   </artifact>
 </component>
