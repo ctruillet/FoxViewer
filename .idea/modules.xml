@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SoundViewer.iml" filepath="$PROJECT_DIR$/SoundViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FoxViewer.iml" filepath="$PROJECT_DIR$/FoxViewer.iml" />
     </modules>
   </component>
 </project>
