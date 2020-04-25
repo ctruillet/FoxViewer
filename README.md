@@ -7,7 +7,7 @@ L'ajout de musique se fait par *drag&drop*, la navigation entre les musiques ave
 
 
 Il ne pretend pas remplacer votre logiciel préféré.   
-/!\ Il ne supporte que les fichiers mp3 et mp4
+/!\ Il ne supporte que les fichiers mp3, mp4 et wav
 
 
 

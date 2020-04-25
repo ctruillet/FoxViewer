@@ -1,0 +1,11 @@
+
+[
+java:S1155I">Use isEmpty() to check whether the collection is empty or not.(åÛËÊ8ˆïğ›.
+c
+java:S1126>"AReplace this if-then-else statement by a single return statement.(ËùãÇÿÿÿÿÿ8ò–¯›.
+]	java:S125i"<This block of commented-out lines of code should be removed.(ääÙ¼ùÿÿÿÿ8ªšş›.
+X	java:S1253"<This block of commented-out lines of code should be removed.(Á Ù8Í‡¯›.
+
+java:S1319D"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(áÑÏõ8ò–¯›.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£¡¸ÿÿÿÿÿ8ˆ•º‰›.
+]	java:S125t"<This block of commented-out lines of code should be removed.(½øò´øÿÿÿÿ8§°ş›.

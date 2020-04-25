@@ -59,7 +59,10 @@ public class ControlDrop {
 	}
 
 	private boolean isGoodType(File file){
-		if(file.getName().endsWith("mp4") || file.getName().endsWith("mp3")){
+		if(file.getName().endsWith("mp4") ||
+				file.getName().endsWith("mp3") ||
+				file.getName().endsWith("wav")
+		){
 			return true;
 		}
 		return false;
