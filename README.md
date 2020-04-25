@@ -1,6 +1,6 @@
 # FoxViewer
 
-**FoxViewer** est un visualisateur de musique.   
+**FoxViewer** est un visualiseur de musique.   
 
 L'ajout de musique se fait par *drag&drop*.
 
